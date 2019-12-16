@@ -1,4 +1,6 @@
 # Starter pipeline
+- task: owaspzap@1
+  inputs:
 - task: Security static source code analysis@88
   inputs:
     preset: 'Checkmarx Default'
