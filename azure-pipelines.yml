@@ -5,6 +5,7 @@
 # https://aka.ms/yaml
 - task: owaspzap@1
   inputs:
+    aggressivemode: true
 
 trigger:
 - master
